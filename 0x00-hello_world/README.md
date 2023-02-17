@@ -6,3 +6,4 @@ Created a script that creates an executable named cisfun
 Created a funtion that user puts
 Created a printf function
 Command to print size of various primitive data types
+Script to generate assembly code in intel syntax of a C code
