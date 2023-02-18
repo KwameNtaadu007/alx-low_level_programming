@@ -23,8 +23,8 @@ int x,y,z;
 					putchar(y);
 					putchar(z);
 
-					if(x == '8' && y == '9')
-						continue;
+						if(x == '8' && y == '9')
+							continue;
 						putchar(',');
 						putchar(' ');
 					}
