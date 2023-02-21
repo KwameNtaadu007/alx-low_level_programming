@@ -2,7 +2,7 @@
 
 
 /**
- * prints 10 times the alphabet
+ * Prints th  alphabets 10 times in lowercase
  * Return: void
  */
 
