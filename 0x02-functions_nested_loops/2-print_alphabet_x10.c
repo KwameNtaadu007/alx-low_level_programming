@@ -2,8 +2,8 @@
 
 
 /**
- * print_alphabet_x10 - Prints th  alphabets 10 times in lowercase
- * @C: The character printed in every loop
+ * print_alphabet_x10 - Prints alphabets 10 times in lowercase
+ * 
  * Return: void
  */
 
