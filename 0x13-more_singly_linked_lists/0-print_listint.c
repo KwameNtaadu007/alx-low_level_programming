@@ -21,7 +21,7 @@ size_t print_listint(const listint_t *h)
 
 	while (h != NULL)
 	{
-		printf("Element [%d] - %d\n", count, h->n);
+		printf("%d\n", h->n);
 		count++;
 		h = h->next;
 	}
