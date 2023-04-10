@@ -20,7 +20,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (!filename || file_descriptor == -1 || !buff)
 	{
 		close(file_descriptor);
-        	free(buff);
+		free(buff);
 		return (0);
 	}
 
