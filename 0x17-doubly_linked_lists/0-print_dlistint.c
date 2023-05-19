@@ -5,18 +5,15 @@
  * @h: A pointer to the head of the doubly linked list.
  * Return: The number of nodes in the list.
  */
+
 size_t print_dlistint(const dlistint_t *h)
 {
-	const dlistint_t *current = h;
 	size_t count = 0;
-
-	while (current != NULL)
+	while (h != NULL)
 	{
-		printf("%d\n", current->n);
-		current = current->next;
+		printf("%d\n", h->n);
 		count++;
+		h = h->next;
 	}
-
 	return (count);
 }
-
